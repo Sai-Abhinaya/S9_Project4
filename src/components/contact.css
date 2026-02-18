@@ -1,0 +1,49 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.contact-card {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 40px;
+    background: rgb(6, 6, 6);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.photo-section img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.info-section span {
+    font-weight: bold;
+    width: 130px;
+    display: inline-block;
+}
+
+.message-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.message-card input, .message-card textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
